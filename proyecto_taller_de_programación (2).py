@@ -91,7 +91,7 @@ def validar_ip(ip):
         # Convertir el texto a número para poder hacer matematicas
         numero = int(segmento)
 
-        #analiza si el numero de cada parte de "segmento" esta entre el rango 0 a 225
+        #analiza si el numero de cada parte de "segmento" esta entre el rango 0 a 255
         if numero < 0 or numero > 255:
             print("Error: cada número de la IP debe estar entre 0 y 255.")
             return False
